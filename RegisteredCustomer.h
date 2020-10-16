@@ -6,6 +6,7 @@
 #include "RegisteredCustomer.h"
 using namespace std;
 
+// A child class 
 
 class RegisteredCustomer : public Personnel
 {

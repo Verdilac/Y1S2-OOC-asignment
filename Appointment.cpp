@@ -13,7 +13,7 @@ Appointment::Appointment() {
 Appointment::Appointment(string apayId, string aappointId, string acustomId, double aamount, string adate, string atypeOfApp, string adeliveryM) {
 
 	pay = new Payment(apayId, aappointId, acustomId, aamount);
-	//correct  implementation due to the transaction being uni.
+	
 
 	date = adate;
 	typeOfAppointment = atypeOfApp;
@@ -27,15 +27,21 @@ void Appointment::appointmentInfo() {
 
 	cout << endl;
 	cout << "Appointment Details" << endl;
+	cout << "Product Id :"<<productID << endl ;
 	cout << "Date : " << date << endl;
 	cout << "Type of Appointment : " << typeOfAppointment << endl;
 	cout << "Delivery Method : " << deliveryMethod << endl;
+	
 
 }
 
 void Appointment::editAppointment() {}
 
 void Appointment::cancelAppointment() {}
+
+void Appointment::addProduct(Product *zpr) {
+	productID = zpr->getProductID();
+}
 
 //Implementing class Appointment : End
 

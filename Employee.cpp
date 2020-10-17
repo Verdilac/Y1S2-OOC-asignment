@@ -6,6 +6,9 @@
 
 using namespace std;
 
+Employee::Employee() {
+	cout << "Default Constructor";
+}
 
 Employee::Employee(string pname, string pemail, string pphone, string paddress, string pempID, double psalary, string pspecialization) 
 	:Personnel(pname, pemail, pphone, paddress) {

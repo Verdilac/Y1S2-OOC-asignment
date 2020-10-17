@@ -6,6 +6,8 @@
 #include "Employee.h"
 #include "Appointment.h"
 #include "Payment.h"
+#include "Product.h"
+#include "Report.h"
 using namespace std;
 
 int main() {
@@ -22,7 +24,24 @@ int main() {
 
 
 	a1 = new Appointment("Pay122223", "H22344", "399330030D", 2500, "9/12/2020", "Hair Cutting", "In-Saloon");
+
+
+	Product *p1;
+
+	p1 = new Product("this is a sanatizer", "OIA-01941", 23, "2020-10-09", 291.89);
+
+	Report *r1;
+
+	r1 = new Report("HELL09", p1);
+
+	r1->access();
+
+	a1->addProduct(p1);
+
+
 	a1->appointmentInfo();
+	
+
 
 
 

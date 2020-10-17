@@ -6,7 +6,7 @@
 using namespace std;
 
 Product::Product() {
-
+	cout << "default constructor";
 }
 
 Product::Product(string zproductDetails, string zproductID, int zquantity, string zdateOfExpiry, double zprice) {

@@ -5,7 +5,7 @@
 using namespace std;
 
 Personnel::Personnel() {
-	cout << "deff con" << endl;
+	cout << "default  constructor" << endl;
 }
 
 Personnel::Personnel(string pname,string pemail,string pphone,string paddress) {

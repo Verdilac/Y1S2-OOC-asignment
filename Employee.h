@@ -16,5 +16,7 @@ public:
 	Employee();
 	Employee(string pname, string pemail, string pphone, string paddress, string pempID, double psalary, string pspecialization);
 	void displayInfo();
+	void getWorkSchedule();
+	void assignEmployee();
 };
 

@@ -19,6 +19,7 @@ public:
 	Personnel();
 	Personnel(string pname,string pemail,string pphone, string paddress);
 	void displayInfo();
+	void editprofile();
 
 
 };

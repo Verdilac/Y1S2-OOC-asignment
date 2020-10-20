@@ -21,5 +21,7 @@ public:
 	Product(string zproductDetails, string zproductID, int zquantity, string zdateOfExpiry, double zprice);
 	void display();
 	string getProductID();
+	void issueProducts();
+	void update();
 };
 

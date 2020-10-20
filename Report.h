@@ -16,6 +16,9 @@ public:
 	Report();
 	Report(string zreportid, Product *zpr);
 	void access();
+	void checkProductStockLevels();
+	void generateLowStockLevels();
+	void createReorderList();
 
 };
 

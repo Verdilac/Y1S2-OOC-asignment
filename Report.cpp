@@ -11,6 +11,7 @@ Report::Report() {
 }
 
 Report::Report(string zreportid, Product *zpr) {
+	//using the pointer which points to the product object in the product class.
 	reportid = zreportid;
 	pr = zpr;
 }

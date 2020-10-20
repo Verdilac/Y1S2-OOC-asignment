@@ -16,12 +16,10 @@ public:
 	RegisteredCustomer();
 	RegisteredCustomer(string pname, string pemail, string pphone, string paddress, string pcusid);
 	//we dont need  to explictly mention the inheritance here.thats done in implementation.
+	
 		
-
-
-
-		void registerCustomer();
-		void displayInfo();
+	void registerCustomer();
+	void displayInfo();
 
 	};
 
